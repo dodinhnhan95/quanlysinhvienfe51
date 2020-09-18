@@ -29,4 +29,8 @@ var SinhVienService = function() {
         })
         return promise;
     }
+    this.timKiemSinhVien = function (keywork) {
+        console.log('chức năng tìm kiếm sinh viên');
+        return ''
+    }
 }
