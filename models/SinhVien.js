@@ -7,7 +7,6 @@ var SinhVien = function (masv,tensv,email,diemtoan,diemly,diemhoa,diemrenluyen,l
     this.diemHoa = diemhoa;
     this.diemRenLuyen = diemrenluyen;
     this.loaiSinhVien = loaisinhvien;
-<<<<<<< HEAD
     this.xepLoai = function() {
         return 'thành bê đê '
 =======
