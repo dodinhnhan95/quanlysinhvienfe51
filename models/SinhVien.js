@@ -7,11 +7,17 @@ var SinhVien = function (masv,tensv,email,diemtoan,diemly,diemhoa,diemrenluyen,l
     this.diemHoa = diemhoa;
     this.diemRenLuyen = diemrenluyen;
     this.loaiSinhVien = loaisinhvien;
+<<<<<<< HEAD
     this.xepLoai = function() {
         return 'thành bê đê '
+=======
+    this.xepLoai = function () {
+        return 'Bá đạo';
+>>>>>>> c4b22cf3d89134af46431a1a00cb076b1993acec
     }
     this.tinhDiemTrungBinh = function () {
         var dtb = (Number(this.diemToan) + Number(this.diemLy) + Number(this.diemHoa)) /3;
         return dtb;
     }
+    this.name = "abababba";
 }
