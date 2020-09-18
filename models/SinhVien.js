@@ -8,7 +8,7 @@ var SinhVien = function (masv,tensv,email,diemtoan,diemly,diemhoa,diemrenluyen,l
     this.diemRenLuyen = diemrenluyen;
     this.loaiSinhVien = loaisinhvien;
     this.xepLoai = function() {
-        return 'Yếu'
+        return 'thành bê đê '
     }
     this.tinhDiemTrungBinh = function () {
         var dtb = (Number(this.diemToan) + Number(this.diemLy) + Number(this.diemHoa)) /3;
